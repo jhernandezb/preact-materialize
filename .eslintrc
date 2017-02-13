@@ -1,0 +1,32 @@
+
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true,
+      "jsx": true
+    }
+  },
+  "globals": {
+    "sinon": true,
+    "expect": true
+  },
+  "rules": {
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope" : 0,
+    "react/jsx-filename-extension": 0,
+    "react-in-jsx-scope": 0,
+    "react/prop-types" : 0,
+    "no-unused-vars": [2, { "varsIgnorePattern": "^h$" }]
+  }
+}
