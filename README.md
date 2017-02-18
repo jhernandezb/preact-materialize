@@ -1,5 +1,5 @@
 # preact-materialize
-MaterializeCSS components for preact, a port of  [react-materialize] (react-materialize) to preact. 
+MaterializeCSS components for preact, a port of  [react-materialize] to preact. 
 
 
 ## License
