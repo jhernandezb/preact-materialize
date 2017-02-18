@@ -1,4 +1,3 @@
-
 {
   "parser": "babel-eslint",
   "extends": "airbnb",
@@ -18,15 +17,21 @@
   },
   "globals": {
     "sinon": true,
-    "expect": true
+    "expect": true,
+    "chai": true
   },
   "rules": {
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
-    "react/react-in-jsx-scope" : 0,
+    "react/react-in-jsx-scope": 0,
     "react/jsx-filename-extension": 0,
     "react-in-jsx-scope": 0,
-    "react/prop-types" : 0,
-    "no-unused-vars": [2, { "varsIgnorePattern": "^h$" }]
+    "react/prop-types": 0,
+    "no-unused-vars": [
+      2,
+      {
+        "varsIgnorePattern": "^h$"
+      }
+    ]
   }
 }

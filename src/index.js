@@ -5,4 +5,5 @@ import Col from './Col';
 
 export {
   Row,
+  Col,
 };
