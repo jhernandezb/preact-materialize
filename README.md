@@ -1,11 +1,12 @@
 # preact-materialize
-MaterializeCSS components for preact, this is based on [react-materialize] (react-materialize.github.io) but rewritten to pure preact components. 
+MaterializeCSS components for preact, a port of  [react-materialize] (react-materialize) to preact. 
 
 
 ## License
 
 MIT
 
-[Preact]: https://github.com/developit/preact
+[preact]: https://github.com/developit/preact
 [preact-compat]: https://github.com/developit/preact-compat
 [webpack]: https://webpack.github.io
+[react-materialize]: https://github.com/react-materialize/react-materialize
